@@ -1,6 +1,6 @@
 # PITCH-WEB
 
-##### By Caleb Ngabo
+##### By Jacqueline Ngabo
 ## Table of Content
 
 + [Description](#description)
