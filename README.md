@@ -62,7 +62,7 @@
 [Go Back to the top](#description)
 
 ## Authors Info
-Linked - Caleb Kabaya(hhttps://www.linkedin.com/in/caleb-kabaya-167676195/)
+phone - +254724764835
 
 Email - (calebkabaya7@gmail.com)
 
