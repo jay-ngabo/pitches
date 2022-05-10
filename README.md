@@ -1,6 +1,6 @@
 # PITCH-WEB
 
-##### By Caleb Mutuku
+##### By Caleb Ngabo
 ## Table of Content
 
 + [Description](#description)
