@@ -1,0 +1,62 @@
+#icons{
+    /* background-color: black; */
+    width: 14%;
+    justify-content: space-evenly;
+}
+.about{
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+#abouttitle{
+    padding-bottom: 20px;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btns{
+   border: 1px solid black;
+   background-color: black;
+   color: white;
+}
+#btns:hover{
+    border: 1px solid black;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0); 
+}
+#fortext{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#addbtn{
+    background-color: black;
+    color: white;
+}
+#addbtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#pitchadd{
+    border-style: outset;
+    background-color: rgb(2, 54, 73);
+    color: white;
+    padding-bottom: 10%;
+    margin: 0 20%;
+}
+.sighup{
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+#descript{
+    font-size: 18px;
+}
+.fa {
+    color: rgb(255, 42, 0);
+    margin: 0 2%;
+}
+#comment:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);  
+}

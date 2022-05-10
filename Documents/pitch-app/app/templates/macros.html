@@ -1,0 +1,37 @@
+{% macro display(piches) %}
+<div class="container-fluid">
+    <div class="row">
+        {% if piches %}
+        {% for category in piches %}
+        <div class="col-md-4">
+            <div class="thumbnail" id="carded">
+                <h5 class="card-header">{{category.title}}</h5>
+                <div class="card-body">
+                    <p>{{category.post}}</p>
+                    <p class="text-center"> Category: {{category.category}}</p>
+                    <footer class="blockquote-footer text-center"> Posted by: {{category.user.username}}</footer>
+                    <div>
+                        <span class="foot">{{category.comment.count()}} Comments</span>
+                        <a href="{{url_for('main.upvote',pitch_id = category.id)}}"><i
+                                class="fas fa-heart"></i>Upvote<span>{{category.upvote.count()}}</span></a>
+                        <a href="{{url_for('main.downvote',pitch_id = category.id)}}"><i
+                                class="fas fa-heartbeat"></i>Downvote<span>{{category.downvote.count()}}</span></a>
+                    </div>
+                    <a href="{{url_for('main.comment',pitch_id = category.id)}}" class="btn btn-dark" id="comment"> Comment</a>
+
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+        {% else %}
+        <div class="card w-90 mb-3">
+            <div class="card-body">
+
+                <p class="card-title">Category Has 0 posts</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endmacro %}
