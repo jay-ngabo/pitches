@@ -64,7 +64,7 @@
 ## Authors Info
 phone - +254724764835
 
-Email - (calebkabaya7@gmail.com)
+Email - (ngabo.jay@gmail.com)
 
 [Go Back to the top](#description)
 
