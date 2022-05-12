@@ -2,6 +2,7 @@ import os
 
 class Config:
    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://geejay:geejay@localhost/geejay'
+   
 
 
    '''
@@ -11,8 +12,8 @@ class Config:
    SECRET_KEY=os.environ.get('SECRET_KEY')
    UPLOADED_PHOTOS_DEST ='app/static/photos'
    # simple mde configuration
-   SIMPLEMDE_JS_IIFE = True
-   SIMPLEMDE_USE_CDN = True
+   # SIMPLEMDE_JS_IIFE = True
+   # SIMPLEMDE_USE_CDN = True
 
    #mail cconfiguration
 
