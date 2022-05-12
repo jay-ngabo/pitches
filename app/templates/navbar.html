@@ -1,26 +1,4 @@
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">PITH-WEB</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav justify-content-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="/"><button type="button" class="btn btn-outline-secondary text-white">Home </button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="btn btn-outline-secondary text-white">Business</button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="btn btn-outline-secondary text-white">Technology</button></a>
-          </li>
-         
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-<!-- Navbar -->
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Container wrapper -->
   <div class="container-fluid">
@@ -36,32 +14,14 @@
       <a class="navbar-brand mt-2 mt-lg-0" href="#">
         <a class="navbar-brand" href="#">PITH-WEB</a>
 
-        <!-- <img
-            src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-            height="15"
-            alt="MDB Logo"
-            loading="lazy"
-          /> -->
+        
       </a>
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="#">Dashboard</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{url_for('main.index')}}">All Pitches</a>
-        </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li> -->
-        {% if current_user.is_authenticated %}
-        <li class="nav-item">
-          <a class="nav-link" href="{{url_for('main.new_pitch')}}">New Pitch</a>
-        </li>
-        {% endif %}
+        
       </ul>
       <!-- Left links -->
     </div>
@@ -79,36 +39,7 @@
       <i class="fa fa-twitter"></i>
       <i class="fa fa-youtube-play"></i>
 
-      <!-- </a> -->
-
-      <!-- Notifications -->
-      <!-- <div class="dropdown">
-          <a
-            class="text-reset me-3 dropdown-toggle hidden-arrow"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <i class="fas fa-bell"></i>
-            <span class="badge rounded-pill badge-notification bg-danger">1</span>
-          </a>
-          <ul
-            class="dropdown-menu dropdown-menu-end"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <li>
-              <a class="dropdown-item" href="#">Some news</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Another news</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </li>
-          </ul>
-        </div> -->
+      
       <!-- Avatar -->
       <div class="dropdown">
         <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
